@@ -132,7 +132,8 @@
     "yaml": "^1.10.2"
   },
   "scripts": {
-    "dev": "postcss tailwind.css -o ./public/styles.css -w --verbose"
+    "build": "postcss tailwind.css -o ./public/styles.css -w --verbose",
+    "prod": "production postcss tailwind.css -o ./public/styles.css"
   },
   "keywords": [],
   "author": "",
