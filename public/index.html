@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ether</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-neutral-main_very_dark_blue font-outfit m-auto max-w-sm">
+    <div
+      class="
+        bg-neutral-card_very_dark_blue
+        flex flex-col
+        justify-center
+        items-center
+        p-6
+        my-15
+        xl:my-37
+        mx-6
+        rounded-2xl
+      "
+    >
+      <div class="relative bg-primary-cyan rounded-lg">
+        <img
+          class="
+            h-72
+            w-72
+            rounded-lg
+            hover:opacity-50
+            transition
+            duration-300
+            ease-in-out
+          "
+          src="../assets/image-equilibrium.jpg"
+          alt="image"
+        />
+        <div
+          class="
+            inset-0
+            z-10
+            opacity-0
+            hover:opacity-100 hover:bg-primary-cyan_op50
+            absolute
+            bg-center
+            object-none object-center
+            transition
+            duration-300
+            ease-in-out
+            bg-no-repeat
+            rounded-lg
+            cursor-pointer
+          "
+          style="background-image: url('../assets/icon-view.svg')"
+        />
+      </div>
+    </div>
+
+    <div class="caption">
+      <div
+        class="flex mt-7 font-outfit font-semibold text-neutral-white text-2xl"
+      >
+        <p class="w-auto hover:text-primary-cyan cursor-pointer">
+          Equilibrium #3429
+        </p>
+      </div>
+      <p class="mt-4.5 text-primary-soft_blue font-light text-base">
+        Our Equilibrium collection promotes balance and calm.
+      </p>
+      <div class="flex space-x-20 h-5 mt-5 text-primary-cyan">
+        <div class="inline-flex">
+          <img class="mr-2" src="../assets/icon-ethereum.svg" />
+          <span class="font-semibold -mt-0.5">0.041 ETH</span>
+        </div>
+        <div class="inline-flex">
+          <img class="mr-2" src="../assets/icon-clock.svg" />
+          <span class="font-light -mt-0.5">3 days left</span>
+        </div>
+      </div>
+      <div class="bg-neutral-line_very_dark_blue w-70 h-0.25 my-4"></div>
+      <div class="inline-flex">
+        <div class="author w-9 h-9 border rounded-full border-white mr-4">
+          <img src="../assets/image-avatar.png" />
+        </div>
+        <span class="mt-1.5 text-primary-soft_blue"
+          >Creation of
+          <b
+            class="
+              text-neutral-white
+              font-normal
+              hover:text-primary-cyan
+              cursor-pointer
+            "
+            >Jules Wyvern</b
+          ></span
+        >
+      </div>
+    </div>
+  </body>
+</html>
